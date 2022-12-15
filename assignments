@@ -1,0 +1,52 @@
+1. WAP to print 'Hello' on screen and then print your name on a separate line.
+
+<html>
+    <head>
+      <script>
+          var name="Chaman";
+          document.write("Hello<br/>"+name);
+      </script>
+    </head>
+<body>
+</body>
+</html>
+
+======================================
+2. WAP to print the sum of two numbers.
+
+<html>
+    <head>
+      <script>
+          var num1=10,num2=20,sum=0;
+          sum= num1+num2;
+          document.write("Sum of two number : "+sum);
+      </script>
+    </head>
+<body>
+</body>
+</html>
+===================================================
+3.WAP to divide two numbers and print on the screen.
+
+<script>
+    var num1=20,num2=10,divide;
+    divide= num1/num2;
+    document.write("Divide two numbers : "+divide);
+</script>
+=======================================================
+4. "WAP to print the result of the following operations.
+    a. -5 + 8 * 6
+    b. (55+9) % 9
+    c. 20 + -3*5 / 8
+    d. 5 + 15 / 3 * 2 - 8 % 3"
+    
+    
+    
+ ==========================================================
+ 5. WAP that takes two numbers as input and display the product of two numbers.
+ 
+ 
+ ===========================================================
+ 6.WAP to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
+ 
+ 
