@@ -36,15 +36,34 @@
 =======================================================
 4. "WAP to print the result of the following operations.
     a. -5 + 8 * 6
+                    <script>
+                    var num1=5,num2=8,num3=6;
+                    var result=(-num1+num2)*num3;
+                    document.write("Result is : "+result);
+                </script>
     b. (55+9) % 9
+                <script>
+                var num1=55,num2=9,num3=9;
+                var result=(num1+num2)%num3;
+                document.write("Result is : "+result);
+            </script>
+
     c. 20 + -3*5 / 8
-    d. 5 + 15 / 3 * 2 - 8 % 3"
-    
-    
-    
+    d. 5 + 15 / 3 * 2 - 8 % 3
+            <script>
+            var num1=5,num2=15,num3=3,num4=2,num5=8,num6=3;
+            var result=num1+num2/num3*num4-num5%num6;
+            document.write("Result is : "+result);
+          </script>
+
  ==========================================================
  5. WAP that takes two numbers as input and display the product of two numbers.
  
+         <script>
+            var num1=10,num2=5,result;
+            result=num1*num2;
+            document.write("Produst of two number : "+result);
+        </script>
  
  ===========================================================
  6.WAP to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
