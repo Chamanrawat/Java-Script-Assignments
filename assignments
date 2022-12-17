@@ -69,3 +69,84 @@
  6.WAP to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =========================================================================================
+ JAVA SCRIPT CLASS ->
+ class Human{
+    constructor(name,age,FatherName){
+        this.name=name;
+        this.age=age;
+        this.FatherName=FatherName;
+    }
+        getFullName(){
+        
+            return this.name+" S/o "+this .FatherName;
+        
+    }
+}
+
+let MyHuman = new Human("Chaman",19,"Laxman Singh");
+
+console.log(MyHuman.getFullName());
+--------------------------------------------------------------------
+
+class student{
+    contructor(Name,Clas,RollNo,Age){
+        this.Name=Name;
+        this.Clas=Clas;
+        this.RollNo=RollNo;
+        this.Age=Age;
+    }
+
+    getStudentInfo {
+        return "Student Name is "+this.Name+". And Class is "+this.Clas+". And Roll Number is "+this.RollNo+"And Student Age is "+this.Age;
+    }
+}
+
+var IsStudent=new student("Chaman Rawat","BCA First Year",10012,19);
+console.log(IsStudent.getStudentInfo());
+ 
