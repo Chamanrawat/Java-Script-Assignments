@@ -164,3 +164,29 @@ class student{
 var IsStudent=new student("Chaman Rawat","BCA First Year",10012,19);
 console.log(IsStudent.getStudentInfo());
  
+ 
+ =========================================================================
+ java script array
+ 
+ <html>
+    <head>
+    <script>
+    const student=["chaman","kiran","pappu","suraj","bablu"];
+    let slen=student;
+    document.write(student.length);
+    let add+="<ul>";
+    for(let i=0; i<5; i++)
+    {
+        add+="<li>"+student[i]+"</li>";
+    }
+    add+="</ul>";
+    document.getElementById("demo").innerHTML=add;
+</script>     
+</head>
+
+<body>
+    student names
+    <span id="demo"></span>
+</body>
+</html>
+===========================================================
