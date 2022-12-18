@@ -133,16 +133,30 @@ let MyHuman = new Human("Chaman",19,"Laxman Singh");
 
 console.log(MyHuman.getFullName());
 --------------------------------------------------------------------
+class Human{
+    constructor(name,year){
+        this.name=name;
+        this.year=year;
+    }
+    age(){
+         let date=new Date();
+       return date.getFullYear() - this.year;
+    }
+}
+
+var myHuman=new Human("Chaman",2002);
+console.log(myHuman.age());
+-----------------------------------------------------------------------
 
 class student{
-    contructor(Name,Clas,RollNo,Age){
+    constructor(Name,Clas,RollNo,Age){
         this.Name=Name;
         this.Clas=Clas;
         this.RollNo=RollNo;
         this.Age=Age;
     }
 
-    getStudentInfo {
+    getStudentInfo() {
         return "Student Name is "+this.Name+". And Class is "+this.Clas+". And Roll Number is "+this.RollNo+"And Student Age is "+this.Age;
     }
 }
